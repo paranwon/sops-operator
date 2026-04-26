@@ -5,6 +5,8 @@
 
 A Kubernetes operator for [Mozilla SOPS](https://github.com/mozilla/sops).
 
+> **Personal fork note:** I'm using this with Azure Key Vault and AKS. The example below reflects that setup.
+
 ## Overview
 
 Put SOPS-encrypted data into a `SopsSecret` which can then be committed to a Git repository.
@@ -67,3 +69,9 @@ helm install craftypath/sops-operator
 ```
 
 Check out the chart's documentation for configuration options.
+
+## Useful Links
+
+- [SOPS documentation](https://github.com/mozilla/sops#readme)
+- [Azure Key Vault integration guide](https://github.com/mozilla/sops#azure-key-vault)
+- [craftypath/helm-charts](https://github.com/craftypath/helm-charts)
