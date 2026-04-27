@@ -70,8 +70,13 @@ helm install sops-operator craftypath/sops-operator --namespace sops-operator --
 
 Check out the chart's documentation for configuration options.
 
+### Azure Key Vault setup
+
+When using Azure Key Vault with AKS, make sure to assign the `Key Vault Crypto User` role to the managed identity used by the operator pod. I use Workload Identity for this — see the [Azure Workload Identity docs](https://azure.github.io/azure-workload-identity/docs/) for setup steps.
+
 ## Useful Links
 
 - [SOPS documentation](https://github.com/mozilla/sops#readme)
 - [Azure Key Vault integration guide](https://github.com/mozilla/sops#azure-key-vault)
 - [craftypath/helm-charts](https://github.com/craftypath/helm-charts)
+- [Azure Workload Identity](https://azure.github.io/azure-workload-identity/docs/)
