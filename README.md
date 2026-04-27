@@ -65,7 +65,7 @@ A Helm chart is available in our charts repo at https://github.com/craftypath/he
 
 ```console
 helm repo add craftypath https://craftypath.github.io/helm-charts
-helm install craftypath/sops-operator
+helm install sops-operator craftypath/sops-operator --namespace sops-operator --create-namespace
 ```
 
 Check out the chart's documentation for configuration options.
