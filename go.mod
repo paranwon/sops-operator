@@ -68,3 +68,4 @@ require (
 )
 
 // personal fork of craftypath/sops-operator — used for local homelab cluster
+// TODO: periodically sync upstream changes from craftypath/sops-operator
