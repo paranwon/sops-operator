@@ -69,4 +69,4 @@ require (
 
 // personal fork of craftypath/sops-operator — used for local homelab cluster
 // TODO: periodically sync upstream changes; last checked 2024-01-15
-// NOTE: keeping google.golang.org/appengine indirect dep until oauth2 drops it
+// NOTE: keeping on go 1.21 to match the k3s node toolchain version in my cluster
