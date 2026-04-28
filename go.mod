@@ -68,5 +68,5 @@ require (
 )
 
 // personal fork of craftypath/sops-operator — used for local homelab cluster
-// TODO: periodically sync upstream changes
-// last synced: 2023-12-01 (upstream tag v0.5.0)
+// TODO: periodically sync upstream changes; last checked 2024-01-15
+// NOTE: keeping google.golang.org/appengine indirect dep until oauth2 drops it
